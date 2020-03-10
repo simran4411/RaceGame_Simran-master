@@ -14,7 +14,19 @@ namespace RaceGame_Simran.Tests
         [TestMethod()]
         public void Form1Test()
         {
-            Form1 obj = new Form1();
+            mann obj = new mann();
+            obj.increment(150,50);
+            Assert.IsTrue(true);
+           
         }
+
+        [TestMethod()]
+        public void decrementTest() {
+
+            Simn.decrement(150, 50);
+            
+            Assert.IsTrue(true);
+        }
+
     }
 }

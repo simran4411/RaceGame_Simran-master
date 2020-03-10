@@ -15,7 +15,8 @@ namespace RaceGame_Simran.Tests
         public void runNextTest()
         {
             Running obj = new Running();
-            Player obj1 = new Player();
+            
+
         }
     }
 }
